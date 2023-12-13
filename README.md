@@ -1,10 +1,11 @@
-# P2RANK to Chimera
+# P2RANK to Chimera [![DOI](https://zenodo.org/badge/731140585.svg)](https://zenodo.org/doi/10.5281/zenodo.10371291)
 
 This repository is to generate Chimera [1] sessions to visualise the results of the ligand binding site prediction software [P2RANK](https://prankweb.cz/) [2-4]. The figure below is a representation of the Chimera session obtained from the P2RANK predictions of the [AlphaFold](https://alphafold.ebi.ac.uk/) [5-7] [model](https://alphafold.ebi.ac.uk/entry/A0A0X1KG70) of the human olfactory receptor 4M2, OR4M2B, ([A0A0X1KG70](https://www.uniprot.org/uniprotkb/A0A0X1KG70/entry)).
 
 ![alt text](img/A0A0X1KG70-F1_pred_pockets.png)
 
 Refer to the [P2RANK_TO_CHIMERA.ipynb](https://github.com/JavierSanchez-Utges/P2RANK_to_Chimera/blob/master/P2RANK_TO_CHIMERA.ipynb) notebook to run the code.
+
 
 ## Dependencies
 
