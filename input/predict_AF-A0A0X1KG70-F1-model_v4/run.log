@@ -1,0 +1,41 @@
+[INFO] Console - predicting pockets for proteins from dataset [AF-A0A0X1KG70-F1-model_v4.cif]
+[INFO] PredictPocketsRoutine - outdir: /cluster/gjb_lab/2394007/p2rank_2.4/test_output/predict_AF-A0A0X1KG70-F1-model_v4
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Dataset - processing dataset [AF-A0A0X1KG70-F1-model_v4.cif] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-A0A0X1KG70-F1-model_v4.cif] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-A0A0X1KG70-F1-model_v4.cif] (1/1)
+[INFO] Protein - loading protein [/cluster/gjb_lab/2394007/alphafold_cif/AF-A0A0X1KG70-F1-model_v4.cif]
+[INFO] PdbUtils - loading file [/cluster/gjb_lab/2394007/alphafold_cif/AF-A0A0X1KG70-F1-model_v4.cif]
+[INFO] Struct - groups in chain A: 313
+[INFO] Struct - groups in chain A: 313
+[INFO] Struct - 313 groups in chain A
+[INFO] Protein - structure atoms: 2488
+[INFO] Protein - protein   atoms: 2453
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 5113
+[INFO] Protein - exposed protein atoms: 1721 of 2453
+[INFO] InstancePredictor - Creating WekaInstancePredictor
+[INFO] SLinkClusterer - clustering [110] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:2( 2 ), id:11( 1 ), id:12( 1 ), id:18( 1 ), id:19( 1 ), id:29( 2 ), id:43( 1 ), id:45( 1 ), id:52( 19 ), id:53( 1 ), id:73( 1 ), id:76( 4 ), id:85( 4 ), id:102( 68 ), id:109( 2 )]
+[INFO] SLinkClusterer - clusters together: 110 / 110
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5113
+[INFO] PocketPredictor - LIGANDABLE POINTS: 110
+[INFO] PocketPredictor - CLUSTERS: 16
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  56   points:  68   score:   30.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  38   points:  19   score:    6.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  11   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  15   points:   4   score:    1.2
+[INFO] OldPymolRenderer - copying [/cluster/gjb_lab/2394007/alphafold_cif/AF-A0A0X1KG70-F1-model_v4.cif] to [/cluster/gjb_lab/2394007/p2rank_2.4/test_output/predict_AF-A0A0X1KG70-F1-model_v4/visualizations/data/AF-A0A0X1KG70-F1-model_v4.cif]
+[INFO] Console - predicting pockets finished in 0 hours 1 minutes 0.882 seconds
+[INFO] Console - results saved to directory [/cluster/gjb_lab/2394007/p2rank_2.4/test_output/predict_AF-A0A0X1KG70-F1-model_v4]
+[INFO] Console - 
+[INFO] Console - ----------------------------------------------------------------------------------------------
+[INFO] Console -  finished successfully in 0 hours 1 minutes 8.608 seconds
+[INFO] Console - ----------------------------------------------------------------------------------------------

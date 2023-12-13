@@ -1,0 +1,37 @@
+[INFO] Console - predicting pockets for proteins from dataset [AF-Q02224-F5-model_v4.cif]
+[INFO] PredictPocketsRoutine - outdir: /cluster/gjb_lab/2394007/p2rank_2.4/test_output/predict_AF-Q02224-F5-model_v4
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Dataset - processing dataset [AF-Q02224-F5-model_v4.cif] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q02224-F5-model_v4.cif] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q02224-F5-model_v4.cif] (1/1)
+[INFO] Protein - loading protein [/cluster/gjb_lab/2394007/alphafold_cif/AF-Q02224-F5-model_v4.cif]
+[INFO] PdbUtils - loading file [/cluster/gjb_lab/2394007/alphafold_cif/AF-Q02224-F5-model_v4.cif]
+[INFO] Struct - groups in chain A: 1400
+[INFO] Struct - groups in chain A: 1400
+[INFO] Struct - 1400 groups in chain A
+[INFO] Protein - structure atoms: 11663
+[INFO] Protein - protein   atoms: 11517
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 46476
+[INFO] Protein - exposed protein atoms: 10739 of 11517
+[INFO] InstancePredictor - Creating WekaInstancePredictor
+[INFO] SLinkClusterer - clustering [6] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:2( 1 ), id:3( 1 ), id:4( 1 ), id:5( 1 )]
+[INFO] SLinkClusterer - clusters together: 6 / 6
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 46476
+[INFO] PocketPredictor - LIGANDABLE POINTS: 6
+[INFO] PocketPredictor - CLUSTERS: 6
+[INFO] PocketPredictor - FILTERED CLUSTERS: 0
+[INFO] OldPymolRenderer - copying [/cluster/gjb_lab/2394007/alphafold_cif/AF-Q02224-F5-model_v4.cif] to [/cluster/gjb_lab/2394007/p2rank_2.4/test_output/predict_AF-Q02224-F5-model_v4/visualizations/data/AF-Q02224-F5-model_v4.cif]
+[INFO] Console - predicting pockets finished in 0 hours 1 minutes 7.879 seconds
+[INFO] Console - results saved to directory [/cluster/gjb_lab/2394007/p2rank_2.4/test_output/predict_AF-Q02224-F5-model_v4]
+[INFO] Console - 
+[INFO] Console - ----------------------------------------------------------------------------------------------
+[INFO] Console -  finished successfully in 0 hours 1 minutes 13.799 seconds
+[INFO] Console - ----------------------------------------------------------------------------------------------
