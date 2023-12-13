@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.DS_Store
+/img/.ipynb_checkpoints
+/output/.DS_Store
+/output/sessions/*.pyc
+
